@@ -1,0 +1,25 @@
+package com.collection;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class FrequencyCountWord {
+
+	public static void main(String[] args) {
+		String str = "java collections framework java";
+		
+		String[] words = str.split(" ");
+		
+		Map<String, Integer> map = new LinkedHashMap<>();
+		
+		for(String s : words) {
+			System.out.println(s);
+			map.put(s, map.getOrDefault(s, 0)+1);
+		}
+		
+		System.out.println(map);
+		
+
+	}
+
+}

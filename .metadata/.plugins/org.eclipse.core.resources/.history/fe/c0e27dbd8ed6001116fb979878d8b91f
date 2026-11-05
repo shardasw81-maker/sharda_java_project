@@ -1,0 +1,18 @@
+package com.collection;
+
+public class FrequencyCountWord {
+
+	public static void main(String[] args) {
+		String str = "java collections framework java";
+		
+		String[] words = str.split(" ");
+		
+		for(String s : words) {
+			System.out.println(s);
+		}
+		
+		
+
+	}
+
+}

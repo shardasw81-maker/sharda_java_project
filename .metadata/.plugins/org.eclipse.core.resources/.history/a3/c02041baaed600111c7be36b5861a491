@@ -1,0 +1,16 @@
+package com.collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SortMapByValue {
+
+	public static void main(String[] args) {
+		Map<String, Integer> scores = new HashMap<>();
+        scores.put("Alice", 85);
+        scores.put("Bob", 95);
+        scores.put("Charlie", 90);
+
+	}
+
+}
